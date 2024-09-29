@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Level 3</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="radio" name="Fruits" id="mango" value="mango"/>
+            <label for="mango">mango</label>
+            <input type="radio" name="Fruits" id="apple" value="apple"/>
+            <label for="apple">apple</label>
+            <input type="radio" name="Fruits" id="banana" value="banana"/>
+            <label for="banana">banana</label>
+        </div>
+        <br/>
+        <div>
+            <input type="checkbox" name="Sub" id="math" value="math"/>
+            <label for="math">math</label>
+            <input type="checkbox" name="Sub" id="science" value="sci"/>
+            <label for="science">science</label>
+            <input type="checkbox" name="Sub" id="hindi" value="hin"/>
+            <label for="hindi">hindi</label>
+
+        </div>
+         <div>
+            Choose your profession
+            <select name="profession" id="profession">
+            <option>Choose your option</option>
+            <option value="stu">Student</option>
+            <option value="dev" selected>developer</option>
+            </select>
+        </div>
+            <label for="vol">Choose your volume:</label>
+            <input type="range" id="vol" min="0" max="100" name="vol" step="10" value="70"/>
+            <br/>
+            <label for="feedback">Please give your valuable feedback:</label>
+            <textarea id="feedback" name="feedback" placeholder="write your feedback here!" rows="5"></textarea>
+       <button>Submit</button>
+    </form>
+    
+</body>
+</html>
